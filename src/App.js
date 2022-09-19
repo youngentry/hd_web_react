@@ -7,6 +7,7 @@ import Solution from './component/Solution';
 import Promotion from './component/Promotion';
 import News from './component/News';
 import Footer from './component/Footer';
+import Totop from './component/Totop';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <News />
       </main>
       <Footer />
+      <Totop />
     </div>
   );
 }
